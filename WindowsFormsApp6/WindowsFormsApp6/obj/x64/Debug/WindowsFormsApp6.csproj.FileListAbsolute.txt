@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\bin\x64\Debug\WindowsFormsApp6.exe.config
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\bin\x64\Debug\WindowsFormsApp6.exe
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\bin\x64\Debug\WindowsFormsApp6.pdb
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\bin\x64\Debug\Python.Runtime.dll
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\bin\x64\Debug\Python.Runtime.xml
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.Form1.resources
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.Properties.Resources.resources
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.csproj.CopyComplete
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.exe
+C:\Users\user\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\x64\Debug\WindowsFormsApp6.pdb
