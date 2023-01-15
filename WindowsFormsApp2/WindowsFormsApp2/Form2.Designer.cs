@@ -86,10 +86,13 @@ namespace WindowsFormsApp2
             // 
             this.comboBox1.Font = new System.Drawing.Font("MS UI Gothic", 20F);
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1"});
             this.comboBox1.Location = new System.Drawing.Point(287, 226);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(259, 35);
             this.comboBox1.TabIndex = 5;
+            this.comboBox1.Text = "0";
             // 
             // comboBox2
             // 
@@ -109,6 +112,7 @@ namespace WindowsFormsApp2
             this.button2.TabIndex = 7;
             this.button2.Text = "音声として送信";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 

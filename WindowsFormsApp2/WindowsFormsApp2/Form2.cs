@@ -36,5 +36,10 @@ namespace WindowsFormsApp2
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Program.coeiroink(Convert.ToString(textBox1.Text),Convert.ToInt32(comboBox1.Text));
+        }
     }
 }
