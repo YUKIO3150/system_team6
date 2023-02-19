@@ -29,17 +29,27 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Program.text(Convert.ToString(textBox1.Text));
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(comboBox2.Text);
+            if (a < 0.5)
+            {
+                a = 0.5;
+            }
+            else if (a > 1.5)
+            {
+                a = 1.5;
+            }
+            Program.coeiroink(Convert.ToString(textBox1.Text),Convert.ToInt32(comboBox1.Text),a);
+            Program.line();
+        }
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Program.coeiroink(Convert.ToString(textBox1.Text),Convert.ToInt32(comboBox1.Text));
-        }
     }
 }

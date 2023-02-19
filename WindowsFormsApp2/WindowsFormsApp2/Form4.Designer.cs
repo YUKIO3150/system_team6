@@ -84,6 +84,7 @@ namespace WindowsFormsApp2
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(259, 35);
             this.comboBox1.TabIndex = 14;
+            this.comboBox1.Text = "0";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
@@ -94,6 +95,7 @@ namespace WindowsFormsApp2
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(259, 35);
             this.comboBox2.TabIndex = 15;
+            this.comboBox2.Text = "0";
             // 
             // label4
             // 
@@ -142,6 +144,7 @@ namespace WindowsFormsApp2
             this.button8.TabIndex = 26;
             this.button8.Text = "E";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -152,6 +155,7 @@ namespace WindowsFormsApp2
             this.button7.TabIndex = 25;
             this.button7.Text = "D";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -162,6 +166,7 @@ namespace WindowsFormsApp2
             this.button6.TabIndex = 24;
             this.button6.Text = "C";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -172,6 +177,7 @@ namespace WindowsFormsApp2
             this.button5.TabIndex = 23;
             this.button5.Text = "B";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -182,6 +188,7 @@ namespace WindowsFormsApp2
             this.button4.TabIndex = 22;
             this.button4.Text = "A";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // radioButton1
             // 

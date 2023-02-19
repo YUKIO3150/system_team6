@@ -20,7 +20,20 @@ namespace WindowsFormsApp2
         /// <summary>
         /// pythonライブラリを共有して使うための変数
         /// </summary>
-        public dynamic np;
+        public class n
+        {
+            public string text { get; set; }
+            public int a { get; set; }
+            public double b { get; set; }
+            public int c { get; set; }
+            public n(string text, int a, double b, int c)
+            {
+                this.text = text;
+                this.a = a;
+                this.b = b;
+                this.c = c;
+            }
+        }
         public Form1()
         {
             InitializeComponent();
@@ -41,6 +54,11 @@ namespace WindowsFormsApp2
         {
             Form4 f4 = new Form4();
             f4.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var n1=(n)Program.CallDB();
         }
     }
 }

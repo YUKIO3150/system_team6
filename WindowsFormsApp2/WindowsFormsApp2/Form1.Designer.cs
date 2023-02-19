@@ -38,7 +38,6 @@ namespace WindowsFormsApp2
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.labelNumpyVersion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -80,6 +79,7 @@ namespace WindowsFormsApp2
             this.button4.TabIndex = 3;
             this.button4.Text = "A";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -131,22 +131,11 @@ namespace WindowsFormsApp2
             this.label1.TabIndex = 8;
             this.label1.Text = "定型文:";
             // 
-            // labelNumpyVersion
-            // 
-            this.labelNumpyVersion.AutoSize = true;
-            this.labelNumpyVersion.Font = new System.Drawing.Font("MS UI Gothic", 30F);
-            this.labelNumpyVersion.Location = new System.Drawing.Point(160, 261);
-            this.labelNumpyVersion.Name = "labelNumpyVersion";
-            this.labelNumpyVersion.Size = new System.Drawing.Size(145, 40);
-            this.labelNumpyVersion.TabIndex = 9;
-            this.labelNumpyVersion.Text = "定型文:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 310);
-            this.Controls.Add(this.labelNumpyVersion);
+            this.ClientSize = new System.Drawing.Size(708, 554);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -174,7 +163,6 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label labelNumpyVersion;
     }
 }
 

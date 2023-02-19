@@ -38,6 +38,7 @@ namespace WindowsFormsApp2
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -48,17 +49,20 @@ namespace WindowsFormsApp2
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(319, 35);
             this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "過去に送信されたメッセージ";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
             // 
             this.comboBox2.Font = new System.Drawing.Font("MS UI Gothic", 20F);
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "1",
+            "2"});
             this.comboBox2.Location = new System.Drawing.Point(287, 226);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(129, 35);
+            this.comboBox2.Size = new System.Drawing.Size(170, 35);
             this.comboBox2.TabIndex = 7;
+            this.comboBox2.Text = "0";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label1
@@ -107,8 +111,9 @@ namespace WindowsFormsApp2
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(287, 283);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(129, 35);
+            this.comboBox3.Size = new System.Drawing.Size(170, 35);
             this.comboBox3.TabIndex = 7;
+            this.comboBox3.Text = "0";
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // button2
@@ -120,6 +125,7 @@ namespace WindowsFormsApp2
             this.button2.TabIndex = 12;
             this.button2.Text = "音声として送信";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -131,11 +137,23 @@ namespace WindowsFormsApp2
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.button4.Location = new System.Drawing.Point(405, 85);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(117, 35);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "履歴取得";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
@@ -163,5 +181,6 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

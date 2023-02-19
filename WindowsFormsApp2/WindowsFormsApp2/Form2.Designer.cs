@@ -102,6 +102,7 @@ namespace WindowsFormsApp2
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(259, 35);
             this.comboBox2.TabIndex = 6;
+            this.comboBox2.Text = "0";
             // 
             // button2
             // 

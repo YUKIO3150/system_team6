@@ -31,5 +31,28 @@ namespace WindowsFormsApp2
         {
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string[] item = Program.python();
+            comboBox1.Items.Clear();
+            for (int i = 0; item[i] != null; i++)
+            {
+                comboBox1.Items.Add(item[i]);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(comboBox3.Text);
+            if (a < 0.5)
+            {
+                a = 0.5;
+            }
+            else if (a > 1.5){
+                a = 1.5;
+            }
+            Program.coeiroink(Convert.ToString(comboBox1.Text), Convert.ToInt32(comboBox2.Text),a);
+        }
     }
 }
